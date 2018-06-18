@@ -27,7 +27,7 @@ public class jdbcmanager {
 		try {
 			Class.forName(driver);
 		} catch (ClassNotFoundException e) {
-			//e.printStackTrace();
+			// e.printStackTrace();
 			System.out.println("注册失败！");
 		}
 	}
@@ -51,7 +51,7 @@ public class jdbcmanager {
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				
+
 				// e.printStackTrace();
 				conn = null;
 			}
